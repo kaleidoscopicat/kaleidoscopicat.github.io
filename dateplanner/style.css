@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+title {
+    display: none;
+}
+
+h1 {
+    font-weight: bold;
+    display: flex;
+}
+
+p {
+    color: #707173;
+    display: flex;
+    text-align: center;
+}
+
+.header {
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+}
+
+.content {
+    padding: 2rem;
+    background-color: #EEF0F2;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bbbdbf;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    //gap: 1rem;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    height: 75vh;
+    width: 60vh;
+}
+
+.content-br {
+    display: flex;
+    height: 1px;
+    width: 85%;
+    border: none;
+    background-color: #bbbdbf;
+}
+
+select {
+    display: flex;
+    width: 55%;
+    background-color: transparent;
+    height: 3rem;
+    border: 1px solid #d4d7d9;
+    border-radius: 10px;
+    text-align: center;
+
+    text-shadow: #707173 0 0 1px 0.2rem;
+
+    transition: linear 0.1s;
+}
+
+select:hover {
+    border-color: #bbbdbf;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 3rem;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0;
+    border-radius: 100px;
+    border: none;
+    background-color: #006aff;
+    transition: linear 0.1s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #005ad9;
+}
